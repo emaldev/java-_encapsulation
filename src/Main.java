@@ -1,12 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner pint = new Scanner(System.in);
 
- public  static void main(String[] args){
-     Encapsulation Capsul = new Encapsulation();
-     Capsul.setName("Mohammad");
-     System.out.println(Capsul.getName());
+        System.out.println("--------------------------");
+        System.out.println("Enter your name :");
+        System.out.println("---------------------------");
+        String userName = pint.nextLine();
+        System.out.println("user name is :" + userName);
 
-
-   }
+    }
 }
